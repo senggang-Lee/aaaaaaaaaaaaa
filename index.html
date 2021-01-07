@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div id="grendtext">hellow wld</div>
+<div id="grendtext">hellow world</div>
     
 
     <div id = "pp1">
@@ -75,7 +75,7 @@
            <div id ="p1text">
         <div id = headertitle>
             
-            <strong>Seanging</strong><br>
+            <strong>Sengang</strong><br>
             In the <br>
             Future class
         </div>
@@ -199,8 +199,8 @@
             <div id = text2>
                 In keynote</div>
             <div id = butbox>
-                <p id = but1><img src="스크린샷 2020-12-26 오전 12.10.30.png" width="40vw" ></p>
-                <p id = but2><img src="스크린샷 2020-12-26 오전 12.10.56.png" width="40vw"></p>
+                <p id = but1><img src="tttt1.png" width="40vw" ></p>
+                <p id = but2><img src="tttt2.png" width="40vw"></p>
             </div>
         
             <div id = container1>
@@ -274,7 +274,7 @@
             팀소개 버튼을 누르면 볼수있다<br>
             팀원들의 프로필과 <br>
             이 웹을 제작한 이유 등을 볼수있고
-            심바와 내가 제작했다.ㅗ
+            심바와 내가 제작했다.
            
                 
         </div>
@@ -295,16 +295,18 @@
     </div> 
     <div id ='boxy'></div>
 </div>
-    <futter>
+    <div class ='futter'>
        <div id = futter> <strong>e-mail</strong><br>
         mindor0414@gmail.com<br>
         deahongdan7@gmail.com<br>
         <strong>team webpage</strong><br>
         https://senggang-lee.github.io/final-collabo/%ED%8C%80%EC%86%8C%EA%B0%9C.html
+        <br><a href="./걸렸구나.html">팀 웹페이지 바로가기</a>
     </div>
-    </futter></div>
+</div></div>
     <script>
          var a = 0
+        
         window.addEventListener('scroll', function(){
             var nowscroll = document.documentElement.scrollTop;
             if (nowscroll > 400){document.querySelector('#p2').classList.add('p')}
@@ -312,9 +314,15 @@
             if (nowscroll > 3000){document.querySelector('#p4').classList.add('p')}
         })
         document.querySelector('#grendtext').addEventListener('click', function(){
-            document.querySelector('#grendtext').classList.add('p')
+            document.querySelector('#grendtext').classList.add('q')
+            
         })
-        
+        setTimeout(function(){document.querySelector('#grendtext').style.display='none'}, 4000);
+        setTimeout(function(){document.querySelector('#pp1').style.display='block'}, 4000);
+        setTimeout(function(){document.querySelector('#pp2').style.display='block'}, 4000);
+        setTimeout(function(){document.querySelector('#pp3').style.display='block'}, 4000);
+        setTimeout(function(){document.querySelector('#pp4').style.display='block'}, 4000);
+        setTimeout(function(){document.querySelector('.futter').style.display='block'}, 4000);
         document.querySelector("#WhoAmI").addEventListener("click", function(){
         document.querySelector("#img").style.display = 'none'
         document.querySelector('#bbb').style.display = 'block'

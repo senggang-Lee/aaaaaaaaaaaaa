@@ -2,13 +2,13 @@
     font-size: 500%;
     text-align: center;
     padding: 25%; 
-    display: none;
+    
 }
 
 
-#pp1, #pp2, #pp3, #pp4{
+#pp1, #pp2, #pp3, #pp4, .futter{
     height: 100vw;
-   
+   display: none;
    
     
 }
@@ -604,7 +604,7 @@ position: absolute;
     padding-bottom:5% ;
     display: none;
 }
-#futter{
+.futter{
     padding: 4%;
     /* margin-top: 40%; */
     text-align: center;
@@ -612,7 +612,7 @@ position: absolute;
     color: #fff;
     text-align: center;
     width: ;
-    height: ;
+    height: 20%;
     border-radius: ;
 }
 
@@ -674,18 +674,19 @@ position: absolute;
   }
   .q {
       background-color: black;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-name: ㅋㅋㅋㅋㅋ;
+    transition: ease-in;
   }
   
    @keyframes ㅋㅋㅋㅋㅋ {
     from {
-      margin-left: 110%;
+      margin-left: 200%;
       
     }
   
     to {
-     
-      
+     width: 100%;
+      margin-left: -300%;
     }
   }
